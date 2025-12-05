@@ -12,7 +12,7 @@ if 'my_list' not in st.session_state: st.session_state.my_list = []
 if 'selected_movie' not in st.session_state: st.session_state.selected_movie = None
 if 'page' not in st.session_state: st.session_state.page = "Home"
 
-API_URL = "http://127.0.0.1:8000"
+API_URL = "https://NeuralStream.onrender.com"
 
 # ==========================================
 # 2. CSS STYLING (NETFLIX DARK THEME)
